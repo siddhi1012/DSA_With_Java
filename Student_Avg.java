@@ -10,11 +10,11 @@ public class Student_Avg {
         int d = sc.nextInt();
         int e = sc.nextInt();
 
-        int total = (a + b + c + d + e) / 5;
+        int total = (a + b + c + d + e);
         int avg = total / 5;
-        int percentage = (total / 500) * 100;
+        double percentage = (total / 500.0) * 100;
         System.out.println("Average:" + avg);
-        System.out.println("Percentage" + percentage);
+        System.out.println("Percentage:" + percentage + "%");
 
     }
 
